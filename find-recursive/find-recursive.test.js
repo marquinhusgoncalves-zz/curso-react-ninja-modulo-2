@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import find from './find';
+import find from './find-recursive';
 
 it('find should be a function', () => {
   expect(find).to.be.a('function');
